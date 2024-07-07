@@ -8,6 +8,7 @@ import Store from '../store/store.js'
 import { AddExpenses,Category,ExpenseList } from './Components/index.js'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Body from './Components/Body.jsx'
+import Analytics from './Components/Analytics.jsx'
 const router = createBrowserRouter([
   {
     path:'/',
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path:'category',
         element:<Category/>
+      },
+      {
+        path:'analytics',
+        element:<Analytics/>
       }
     ]
   }

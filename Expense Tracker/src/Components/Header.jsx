@@ -11,6 +11,10 @@ function Header() {
     {
       name: 'Category',
       path: '/category'
+    },
+    {
+      name:'Analytics',
+      path:'/analytics'
     }
   ];
 

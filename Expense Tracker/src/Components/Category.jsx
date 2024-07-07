@@ -15,6 +15,7 @@ function CategoryTotals() {
   };
 
   const categoryTotals = calculateTotals(expenses);
+  console.log(categoryTotals);
   const totalExpenses = Object.values(categoryTotals).reduce((acc, total) => acc + total, 0);
 
   return (
